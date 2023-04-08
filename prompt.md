@@ -1,0 +1,19 @@
+使用Python把，设计一个css样式：实现A4纸大小的页面， 上下左右分成四个相等的区域section，固定每个section的宽度和高度，每个section的边缘有黑色的边框，每个section的中间底部显示一个数字section_number表示当前section累计数量。转换的html文件要引用css文件，contents.md的内容要顺序地显示在每个section中。首先给出css文件。
+
+
+单个页面是A4纸大小，方便打印，每个页面中的每个section的宽度和高度是一样的，contents.md的内容要连续地显示在每个section中，section_number是全部页面section数量的累积
+
+
+内容是在多个A4大小的页面中4个section中显示
+
+
+生成20个A4大小的页面，顺序地排列在页面中，每个页面中有4个section，读取contents.md的内容，按上面的需求展示内容
+
+
+
+
+
+
+使用python，beautifulsoup，html和css 生成网页，页面有多个A4纸大小的区域area从上到下排列，单个area分成四个相等的区域section，每个section有黑色的边框，每个section的中间底部显示一个数字section_number表示section累计数量，
+
+使用python读取markdown文件contents.md的内容，生成一个html文件，把contents.md的内容在section中，每个section中能显示的字符数量为一个设定的值，超过了则显示在下一个section中，每个section有黑色的边框，每个section的中间底部显示一个数字section_number表示section累计数量，每个section的宽度是105毫米，高度是148.5毫米。
