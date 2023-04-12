@@ -52,8 +52,8 @@ section_template = '''
 output_html = "<!DOCTYPE html><html><head><meta charset='UTF-8'></head><body>"
 
 # A4 paper size in pixels, assuming 96 DPI
-a4_width = 794
-a4_height = 1123
+a4_width = 2480
+a4_height = 3508
 
 page_template = '''
 <div style="width: {width}px; height: {height}px; position: relative; page-break-after: always;">
